@@ -1,118 +1,317 @@
-```sh
-Utilize o site <https://www.toptal.com/developers/gitignore> para gerar seu arquivo gitignore e apague este campo.
-
-Vide tutoriais do PI.
-```
-
 # FECAP - Fundação de Comércio Álvares Penteado
 
 <p align="center">
-<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
+  <a href="https://www.fecap.br/">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0">
+  </a>
 </p>
 
-# Nome do Projeto
+# KFKA Tech
 
 ## Nome do Grupo
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+KFKA Tech
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Integrantes
 
-## Descrição
+- Vitor de Moura Lima
+- Denise de Sousa Lima
+- João Henrique Percino Albuquerque
+- Gabriel Barbosa da Silva Cabral
 
-<p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
-</p>
+## Professores Orientadores
 
+- Adriano Valente
+- Eduardo Savino Gomes
+- Francisco Escobar
+- Carlos Buesso Junior
+- Ronaldo Araujo Pinto
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+---
 
-## 🛠 Estrutura de pastas
+## 📖 Descrição
 
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+O **KFKA Tech** é uma plataforma web de acompanhamento escolar desenvolvida com o objetivo de facilitar o acesso às informações acadêmicas e melhorar a comunicação entre alunos, responsáveis, professores e administradores.
 
-A pasta raiz contem dois arquivos que devem ser alterados:
+O sistema possui diferentes áreas de acesso para **alunos e responsáveis, professores e administradores**. Alunos e responsáveis podem consultar informações acadêmicas, como horários, notificações, eventos, provas, média geral e situação de frequência. Professores podem registrar e consultar o acompanhamento bimestral dos alunos nas turmas e disciplinas sob sua responsabilidade. Já os administradores possuem acesso às funcionalidades de gerenciamento necessárias para o funcionamento da plataforma.
 
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+O objetivo do projeto é proporcionar um acompanhamento acadêmico mais simples, organizado e acessível.
 
-Há também 4 pastas que seguem da seguinte forma:
+---
 
-<b>documentos</b>: Toda a documentação estará nesta pasta.
+## ✨ Principais Funcionalidades
 
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
+### 👨‍🎓 Aluno e Responsável
 
-<b>imagens</b>: Imagens do sistema
+- Visualização do mural principal;
+- Consulta do horário semanal de aulas;
+- Visualização das últimas notificações;
+- Consulta dos próximos eventos e provas;
+- Visualização da média geral do aluno;
+- Consulta da situação do limite de faltas.
 
-<b>src</b>: Pasta que contém o código fonte.
+### 👨‍🏫 Professor
 
-## 🛠 Instalação
+- Acesso ao painel do professor;
+- Consulta das turmas e disciplinas sob sua responsabilidade;
+- Registro do acompanhamento bimestral dos alunos;
+- Consulta dos acompanhamentos registrados.
 
-<b>Android:</b>
+### ⚙️ Administrador
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+- Acesso ao painel administrativo;
+- Gerenciamento das informações necessárias ao funcionamento do sistema;
+- Administração dos principais cadastros e recursos da plataforma.
 
-```sh
-Coloque código do prompt de comnando se for necessário
+---
+
+## 🛠 Estrutura de Pastas
+
+A estrutura do projeto está organizada da seguinte forma:
+
+```text
+KFKA-Tech/
+│
+├── documentos/
+│   └── Documentação do projeto
+│
+├── imagens/
+│   └── Imagens, logos e recursos visuais
+│
+├── src/
+│   │
+│   ├── Backend/
+│   │   ├── classes/
+│   │   ├── database/
+│   │   └── arquivos do backend
+│   │
+│   └── Frontend/
+│       ├── páginas HTML
+│       ├── arquivos CSS
+│       ├── arquivos JavaScript
+│       └── recursos do sistema
+│
+└── README.md
 ```
 
-<b>Windows:</b>
+### Descrição das pastas
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+**documentos/**  
+Contém os documentos relacionados ao desenvolvimento, planejamento e documentação do projeto interdisciplinar.
 
-```sh
-Coloque código do prompt de comnando se for necessário
+**imagens/**  
+Contém logos, imagens e demais recursos visuais utilizados pelo sistema.
+
+**src/**  
+Contém todo o código-fonte da aplicação.
+
+**src/Frontend/**  
+Contém as telas e componentes responsáveis pela interface visual da plataforma.
+
+**src/Backend/**  
+Contém as classes, regras do sistema e estrutura responsável pela manipulação e armazenamento dos dados.
+
+**README.md**  
+Arquivo responsável por apresentar e documentar o projeto.
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+### Front-end
+
+- HTML5
+- CSS3
+- JavaScript
+
+### Back-end
+
+- JavaScript
+- Node.js
+
+### Banco de Dados
+
+- Banco de dados utilizado para armazenar as informações acadêmicas e os dados necessários ao funcionamento do sistema.
+
+### Ferramentas
+
+- Visual Studio Code
+- Git
+- GitHub
+- Figma
+- Navegador Web
+
+---
+
+## 🛠 Instalação e Execução
+
+### Front-end
+
+Para visualizar as páginas do front-end:
+
+1. Acesse a pasta:
+
+```text
+src/Frontend
 ```
 
-<b>HTML:</b>
+2. Localize o arquivo principal:
 
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+```text
+index.html
+```
+
+3. Abra o arquivo em um navegador, como:
+
+- Google Chrome;
+- Microsoft Edge;
+- Mozilla Firefox.
+
+Não é necessária instalação para visualizar as páginas estáticas do front-end.
+
+---
+
+### Back-end
+
+O back-end do sistema está localizado na pasta:
+
+```text
+src/Backend
+```
+
+Ele é responsável pela organização das classes, regras de negócio e acesso aos dados utilizados pela plataforma KFKA Tech.
+
+Para ambientes que utilizem Node.js, é necessário possuir o Node.js instalado no computador.
+
+Download:
+
+https://nodejs.org/
+
+A execução do servidor pode variar conforme a versão atual implementada no projeto.
+
+---
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+Para desenvolver ou modificar o projeto, recomenda-se utilizar:
 
-Para abrir este projeto você necessita das seguintes ferramentas:
+- Visual Studio Code;
+- Node.js;
+- Git;
+- GitHub;
+- Navegador atualizado;
+- Figma.
 
--<a href="https://godotengine.org/download">GODOT</a>
+### Visual Studio Code
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
+https://code.visualstudio.com/
 
-## 📋 Licença/License
-Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
+### Node.js
+
+https://nodejs.org/
+
+### Git
+
+https://git-scm.com/
+
+### Figma
+
+https://www.figma.com/
+
+---
+
+## 🗄 Banco de Dados
+
+O sistema utiliza um banco de dados para armazenar informações necessárias ao funcionamento da plataforma, como dados de usuários, alunos, professores, acompanhamento escolar, turmas, disciplinas e demais registros acadêmicos.
+
+A camada de banco de dados está integrada ao back-end do projeto.
+
+---
+
+## 🧩 Arquitetura do Sistema
+
+O projeto está dividido principalmente em duas partes:
+
+### Front-end
+
+Responsável pela interação com o usuário e pela apresentação das informações da plataforma.
+
+### Back-end
+
+Responsável pelas regras de negócio, classes do sistema, tratamento das informações e comunicação com o banco de dados.
+
+A separação entre front-end e back-end facilita a organização, manutenção e evolução do projeto.
+
+---
+
+## 🔐 Tipos de Usuário
+
+### Aluno / Responsável
+
+Possui acesso às informações relacionadas ao acompanhamento acadêmico do aluno.
+
+### Professor
+
+Possui acesso às informações de suas turmas e disciplinas e pode realizar o acompanhamento bimestral dos alunos.
+
+### Administrador
+
+Possui acesso às funcionalidades administrativas necessárias para gerenciamento da plataforma.
+
+---
+
+## 📋 Licença / License
+
+Este projeto foi desenvolvido para fins acadêmicos como parte do Projeto Interdisciplinar da **FECAP – Fundação de Comércio Álvares Penteado**.
+
+Caso seja necessária a aplicação de uma licença Creative Commons, poderá ser utilizada a licença **CC BY 4.0**.
+
+Mais informações:
+
+https://creativecommons.org/licenses/by/4.0/
+
+---
 
 ## 🎓 Referências
 
-Aqui estão as referências usadas no projeto.
+1. FECAP – Fundação de Comércio Álvares Penteado  
+   https://www.fecap.br/
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://chooser-beta.creativecommons.org/>
-4. <https://freesound.org/>
-5. <https://www.toptal.com/developers/gitignore>
-6. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+2. MDN Web Docs  
+   https://developer.mozilla.org/
+
+3. Node.js  
+   https://nodejs.org/
+
+4. GitHub  
+   https://github.com/
+
+5. Visual Studio Code  
+   https://code.visualstudio.com/
+
+6. Figma  
+   https://www.figma.com/
+
+7. Creative Commons  
+   https://creativecommons.org/licenses/by/4.0/
+
+---
+
+## 👥 Desenvolvedores
+
+Projeto desenvolvido por:
+
+**Vitor de Moura Lima**  
+**Denise de Sousa Lima**  
+**João Henrique Percino Albuquerque**  
+**Gabriel Barbosa da Silva Cabral**
+
+### Professores Orientadores
+
+**Adriano Valente**  
+**Eduardo Savino Gomes**  
+**Francisco Escobar**  
+**Carlos Buesso Junior**  
+**Ronaldo Araujo Pinto**
+
+FECAP – Fundação de Comércio Álvares Penteado.
