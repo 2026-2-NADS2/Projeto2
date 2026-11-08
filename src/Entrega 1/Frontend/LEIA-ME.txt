@@ -1,0 +1,29 @@
+KFKA - BACKEND EM JAVASCRIPT
+============================
+
+TECNOLOGIAS
+- Front-end: HTML, CSS e JavaScript
+- Backend: JavaScript com Node.js
+- Banco de dados: SQLite
+- Servidor local: Node.js
+
+COMO EXECUTAR
+1. Tenha o Node.js 22.5 ou superior instalado.
+2. Dê dois cliques no arquivo INICIAR_KFKA.bat.
+3. O navegador abrirá em http://127.0.0.1:8000.
+4. Mantenha a janela do servidor aberta enquanto utilizar o sistema.
+
+IMPORTANTE
+- Não é necessário executar npm install.
+- Não é necessário instalar Express.
+- O arquivo backend/kfka.db é criado automaticamente na primeira execução.
+
+ARQUIVOS DO BACKEND
+- backend/modelos.js: classes do sistema.
+- backend/banco.js: criação e acesso ao banco SQLite.
+- backend/sistema.js: classe principal SistemaKFKA.
+- backend/servidor.js: servidor local e API do sistema.
+
+CLASSE PRINCIPAL
+A classe SistemaKFKA centraliza o funcionamento do backend, integra as classes
+com o banco de dados e coordena as operações de leitura e gravação.

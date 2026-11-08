@@ -1,7 +1,12 @@
 # Entregas do PI
 ### **DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL**
 
-Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.docx](Ficha%20de%20Declaracao%20Uso%20IA%20-%20FECAP.docx)
+Fichas individuais (modelo FECAP, uma por integrante, a preencher e assinar):
+
+- [Ficha IA - Vitor de Moura Lima](Declaracao%20de%20Uso%20de%20IA/Ficha%20IA%20-%20Vitor%20de%20Moura%20Lima.docx)
+- [Ficha IA - João Henrique Percino Albuquerque](Declaracao%20de%20Uso%20de%20IA/Ficha%20IA%20-%20Jo%C3%A3o%20Henrique%20Percino%20Albuquerque.docx)
+- [Ficha IA - Gabriel Barbosa da Silva Cabral](Declaracao%20de%20Uso%20de%20IA/Ficha%20IA%20-%20Gabriel%20Barbosa%20da%20Silva%20Cabral.docx)
+- [Modelo em branco](Ficha%20de%20Declaracao%20Uso%20IA%20-%20FECAP.docx)
 
 ## Entrega 1
 <br><br>
@@ -23,7 +28,7 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 
 ### Design
 
-<b>[Trabalho/Documento](Entrega%201/Desing/Desing.pdf)</b>
+<b>[Trabalho/Documento](Entrega%201/Design/Design.pdf)</b>
 <br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
@@ -86,7 +91,7 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 
 ### Banco de Dados
 
-<b>Trabalho/Documento: [a enviar]</b>
+<b>[Trabalho/Documento](Entrega%202/Banco%20de%20Dados/)</b> – [preencher: enviar o arquivo nesta pasta]
 <br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
@@ -100,7 +105,7 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 
 ### Design
 
-<b>Trabalho/Documento: [a enviar]</b>
+<b>[Trabalho/Documento](Entrega%202/Design/)</b> – [preencher: enviar o arquivo nesta pasta]
 <br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
@@ -114,7 +119,7 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 
 ### Estrutura de Dados
 
-<b>Trabalho/Documento: [a enviar]</b>
+<b>[Trabalho/Documento](Entrega%202/Estrutura%20de%20Dados/)</b> – [preencher: enviar o arquivo nesta pasta]
 <br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
@@ -128,7 +133,7 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 
 ### Desenvolvimento Web Full Stack
 
-<b>Trabalho/Documento: [a enviar]</b>
+<b>[Trabalho/Documento](Entrega%202/full%20stack/)</b> – [preencher: enviar o arquivo nesta pasta]
 <br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
@@ -142,7 +147,7 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 
 ### Programação Orientada a Objetos
 
-<b>Trabalho/Documento: [a enviar]</b>
+<b>[Trabalho/Documento](Entrega%202/programa%C3%A7%C3%A3o%20orientada%20a%20objetos/)</b> – [preencher: enviar o arquivo nesta pasta]
 <br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |

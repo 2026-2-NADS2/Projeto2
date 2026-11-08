@@ -6,7 +6,7 @@
 
 ### Módulo do sistema: Frontend
 
-<b>Código: [FrontEnd.zip](Entrega%201/Frontend/FrontEnd.zip)</b>
+<b>Código: [Entrega 1/Frontend](Entrega%201/Frontend/)</b>
 <br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
@@ -21,7 +21,7 @@
 
 ### Módulo do sistema: Backend
 
-<b>Código: [backend.zip](Entrega%201/Backend/backend.zip)</b>
+<b>Código: [Entrega 1/Backend](Entrega%201/Backend/)</b>
 <br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
@@ -39,6 +39,9 @@
 
 ### Módulo do sistema: Frontend
 
+<b>Código: [Entrega 2/Frontend](Entrega%202/Frontend/)</b> – [preencher: React]
+<br><br>
+
 | **Aluno(s) Responsável(veis)** |[preencher] |
 | :--- | :--- |
 | **Ferramenta utilizada** | [preencher] |
@@ -50,6 +53,9 @@
 
 
 ### Módulo do sistema: Backend
+
+<b>Código: [Entrega 2/Backend](Entrega%202/Backend/)</b> – [preencher]
+<br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
 | :--- | :--- |

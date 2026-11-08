@@ -74,6 +74,7 @@ Projeto2/
 ├── documentos/
 │   ├── Entrega 1/            (Banco de Dados, Design, Estrutura de Dados, Full Stack, POO)
 │   ├── Entrega 2/
+│   ├── Declaracao de Uso de IA/   (fichas de cada integrante)
 │   ├── Ficha de Declaracao Uso IA - FECAP.docx
 │   ├── Documento_Projeto_Extensao_KFKA_Tech_Preenchido.docx
 │   ├── MODELO_BANNER_FECAP_2026_1.pptx
@@ -83,11 +84,11 @@ Projeto2/
 │
 ├── src/
 │   ├── Entrega 1/
-│   │   ├── Backend/          (backend.zip)
-│   │   └── Frontend/         (FrontEnd.zip)
+│   │   ├── Backend/          (servidor Node.js + SQLite)
+│   │   └── Frontend/         (HTML, CSS e JavaScript)
 │   ├── Entrega 2/
-│   │   ├── Backend/
-│   │   └── Frontend/
+│   │   ├── Backend/          [preencher]
+│   │   └── Frontend/         [preencher: React]
 │   └── README.md             (declaração de uso de IA por módulo)
 │
 └── README.md
@@ -156,6 +157,8 @@ Não é necessário rodar `npm install`.
 
 ### Executando a Entrega 1
 
+O código-fonte pode ser lido em `src/Entrega 1/`. Para executar o sistema completo:
+
 1. Baixe o arquivo `documentos/Entrega 1/full stack/Full Stack.zip`, que tem o front-end e o back-end juntos, e extraia.
 2. Entre na pasta `Projeto Kfka`.
 3. No Windows, dê dois cliques em `INICIAR_KFKA.bat`. Em outros sistemas, rode:
@@ -167,6 +170,14 @@ node --no-warnings backend/servidor.js
 4. Acesse http://127.0.0.1:8000 no navegador e mantenha a janela do servidor aberta enquanto usar o sistema.
 
 O banco `backend/kfka.db` é criado automaticamente na primeira execução.
+
+### Executando a Entrega 2
+
+[preencher: passos para instalar dependências, configurar o banco e iniciar o back-end e o front-end em React]
+
+```sh
+[preencher: comandos, ex.: npm install / npm start]
+```
 
 ---
 

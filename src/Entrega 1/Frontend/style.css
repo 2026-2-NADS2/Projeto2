@@ -1,0 +1,566 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #28566a;
+    background: #e9f3f6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    border: 0;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #ffd166;
+    outline-offset: 2px;
+}
+
+.login {
+    min-height: 100vh;
+    background: #0c0c0c;
+    color: white;
+    display: grid;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.login:before,
+.login:after {
+    content: 'K  F  K  Λ    K  F  K  Λ';
+    position: absolute;
+    color: #343434;
+    font-size: clamp(50px, 11vw, 170px);
+    font-weight: bold;
+    letter-spacing: 20px;
+    transform: rotate(-35deg);
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.login:before {
+    top: 10%;
+    left: -25%;
+}
+
+.login:after {
+    bottom: 6%;
+    right: -30%;
+    color: #17282c;
+}
+
+.login-box {
+    z-index: 1;
+    width: min(440px, 90vw);
+    display: grid;
+    gap: 22px;
+    text-align: center;
+}
+
+.login-logo {
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 26px;
+    margin: 0 0 50px;
+    padding: 2px 0 2px 23px;
+}
+
+.login-logo span,
+.brand span {
+    color: #5ab6dd;
+}
+
+.role-choice {
+    display: grid;
+    gap: 22px;
+}
+
+.role-choice button,
+.login-input {
+    border: 2px solid #ddd;
+    background: #333;
+    color: #fff;
+    border-radius: 28px;
+    padding: 12px 18px;
+    width: 100%;
+}
+
+.role-choice button:hover {
+    background: #26586b;
+}
+
+.login-form {
+    text-align: left;
+    display: grid;
+    gap: 12px;
+}
+
+.login-form label {
+    font-size: 14px;
+}
+
+.login-input {
+    background: #151515;
+}
+
+.login-form .primary {
+    margin-top: 15px;
+}
+
+.back {
+    background: transparent;
+    color: #fff;
+    text-align: left;
+    padding: 0;
+}
+
+.primary,
+.small-button {
+    background: #28596d;
+    color: #fff;
+    border-radius: 5px;
+    padding: 11px 20px;
+    font-weight: bold;
+}
+
+.primary:hover,
+.small-button:hover,
+.menu-tile:hover {
+    background: #397b95;
+}
+
+.login .primary {
+    background: #56afd6;
+    border-radius: 28px;
+}
+
+.shell {
+    min-height: 100vh;
+    background: linear-gradient(
+        140deg,
+        #275d71,
+        #58b9dc
+    );
+}
+
+.topbar {
+    background: #28596b;
+    color: #fff;
+    min-height: 54px;
+    display: grid;
+    grid-template-columns:
+        minmax(0, 1fr)
+        auto
+        minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+    padding: 7px 28px;
+}
+
+.topbar-left {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    min-width: 0;
+}
+
+.topbar .brand {
+    font-size: 27px;
+    letter-spacing: 8px;
+    white-space: nowrap;
+}
+
+.topbar .contexto-aluno {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    color: #fff;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.topbar .heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.topbar .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.topbar a,
+.topbar button {
+    color: #fff;
+    background: transparent;
+}
+
+.topbar .home-link {
+    background: #fff;
+    color: #28596b;
+    border-radius: 3px;
+    padding: 5px 16px;
+}
+
+.content {
+    width: min(1180px, 94%);
+    margin: 28px auto 60px;
+}
+
+.panel {
+    background: white;
+    padding: 20px;
+    margin: 13px 0;
+    border-radius: 2px;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    margin: 10px 0 25px;
+    font-size: 22px;
+}
+
+.section-title {
+    color: #fff;
+    font-size: 19px;
+    margin: 25px 0 10px;
+}
+
+.menu {
+    display: grid;
+    gap: 15px;
+    max-width: 940px;
+    margin: auto;
+}
+
+.menu-tile {
+    display: block;
+    background: #28596b;
+    color: #fff;
+    text-align: center;
+    padding: 24px;
+    border-radius: 9px;
+    box-shadow: 0 3px 0 #20495a;
+    font-size: 21px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px 25px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.field input,
+.field select,
+.field textarea,
+.filter select {
+    border: 1px solid #97adb6;
+    border-radius: 3px;
+    padding: 9px;
+    color: #28596b;
+    background: #fff;
+    max-width: 100%;
+}
+
+.field textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+.wide {
+    grid-column: 1 / -1;
+}
+
+.check-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.check-row label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form-actions {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.table-wrap {
+    overflow-x: auto;
+    background: #fff;
+    min-height: 130px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 600px;
+}
+
+th,
+td {
+    border: 1px solid #90a5ae;
+    padding: 9px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background: #f5fafb;
+}
+
+.small-button {
+    padding: 6px 12px;
+    font-size: 13px;
+}
+
+.danger {
+    background: #a54c4c;
+}
+
+.cards {
+    display: grid;
+    gap: 14px;
+}
+
+.record {
+    background: #fff;
+    border-radius: 4px;
+    padding: 18px;
+}
+
+.record-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid #d7e7ed;
+    padding-bottom: 10px;
+}
+
+.badge {
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 12px;
+    background: #f4d783;
+    color: #3c3c3c;
+}
+
+.badge.Publicado {
+    background: #9dddba;
+}
+
+.badge.Devolvido {
+    background: #f49e9e;
+}
+
+.badge.Rascunho {
+    background: #c9d7e2;
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 10px 0;
+}
+
+.chip {
+    background: #d4e6f8;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.record-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.stats .panel {
+    margin: 0;
+}
+
+.stats strong {
+    display: block;
+    margin-top: 8px;
+}
+
+.filter {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 18px 0;
+}
+
+.message {
+    background: #fffbe5;
+    border-left: 5px solid #e9ae39;
+    padding: 14px;
+    margin: 15px 0;
+}
+
+.error {
+    background: #ffe8e8;
+    border-color: #c74343;
+}
+
+.success {
+    background: #e3f9ec;
+    border-color: #31a869;
+}
+
+.loading {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.muted {
+    color: #6e8993;
+}
+
+.login-error {
+    color: #ffabab;
+}
+
+.notfound {
+    background: #fff;
+    text-align: center;
+    padding: 45px;
+}
+
+.report-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.report-grid .panel {
+    margin: 0;
+}
+
+.responsive-list {
+    display: grid;
+    gap: 8px;
+}
+
+.inline-form {
+    display: flex;
+    gap: 8px;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.inline-form .field {
+    flex: 1;
+    min-width: 150px;
+}
+
+@media (max-width: 720px) {
+    .topbar {
+        grid-template-columns:
+            minmax(0, 1fr)
+            auto;
+        padding: 10px;
+    }
+
+    .topbar-left {
+        flex-wrap: wrap;
+        gap: 8px 20px;
+    }
+
+    .topbar .contexto-aluno {
+        flex-wrap: wrap;
+        gap: 8px 15px;
+    }
+
+    .topbar .heading {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        width: 100%;
+    }
+
+    .topbar .right {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .content {
+        width: 95%;
+    }
+
+    .form-grid,
+    .stats,
+    .report-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .record-head {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .login-logo {
+        font-size: 44px;
+        letter-spacing: 15px;
+    }
+
+    .menu-tile {
+        padding: 18px;
+    }
+}
