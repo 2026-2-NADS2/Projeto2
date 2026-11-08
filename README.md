@@ -15,7 +15,6 @@ KFKA Tech
 ## Integrantes
 
 - Vitor de Moura Lima
-- Denise de Sousa Lima
 - João Henrique Percino Albuquerque
 - Gabriel Barbosa da Silva Cabral
 
@@ -24,7 +23,7 @@ KFKA Tech
 - Adriano Valente
 - Eduardo Savino Gomes
 - Francisco Escobar
-- Carlos Buesso Junior
+- José Buesso Junior
 - Ronaldo Araujo Pinto
 
 ---
@@ -301,8 +300,7 @@ https://creativecommons.org/licenses/by/4.0/
 
 Projeto desenvolvido por:
 
-**Vitor de Moura Lima**  
-**Denise de Sousa Lima**  
+**Vitor de Moura Lima**   
 **João Henrique Percino Albuquerque**  
 **Gabriel Barbosa da Silva Cabral**
 
@@ -311,7 +309,7 @@ Projeto desenvolvido por:
 **Adriano Valente**  
 **Eduardo Savino Gomes**  
 **Francisco Escobar**  
-**Carlos Buesso Junior**  
+**José Buesso Junior**  
 **Ronaldo Araujo Pinto**
 
 FECAP – Fundação de Comércio Álvares Penteado.
