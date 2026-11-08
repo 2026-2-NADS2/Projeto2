@@ -15,7 +15,7 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 | :--- | :--- |
 | **Ferramenta utilizada** | [preencher] |
 | **Versão/modelo** | [preencher] |
-| **Disciplina / Trabalho** | [preencher] |
+| **Disciplina / Trabalho** | Banco de Dados – PI Entrega 1 |
 | **Finalidade de uso** | [preencher] |
 | ***Prompts* principais utilizados** | [preencher] |
 | **Trechos ou entregas afetadas** | [preencher] |
@@ -30,7 +30,7 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 | :--- | :--- |
 | **Ferramenta utilizada** | [preencher] |
 | **Versão/modelo** | [preencher] |
-| **Disciplina / Trabalho** | [preencher] |
+| **Disciplina / Trabalho** | Design de Interface Digital – PI Entrega 1 |
 | **Finalidade de uso** | [preencher] |
 | ***Prompts* principais utilizados** | [preencher] |
 | **Trechos ou entregas afetadas** | [preencher] |
@@ -45,7 +45,7 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 | :--- | :--- |
 | **Ferramenta utilizada** | [preencher] |
 | **Versão/modelo** | [preencher] |
-| **Disciplina / Trabalho** | [preencher] |
+| **Disciplina / Trabalho** | Estrutura de Dados – PI Entrega 1 |
 | **Finalidade de uso** | [preencher] |
 | ***Prompts* principais utilizados** | [preencher] |
 | **Trechos ou entregas afetadas** | [preencher] |
@@ -60,7 +60,7 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 | :--- | :--- |
 | **Ferramenta utilizada** | [preencher] |
 | **Versão/modelo** | [preencher] |
-| **Disciplina / Trabalho** | [preencher] |
+| **Disciplina / Trabalho** | Desenvolvimento Web Full Stack – PI Entrega 1 |
 | **Finalidade de uso** | [preencher] |
 | ***Prompts* principais utilizados** | [preencher] |
 | **Trechos ou entregas afetadas** | [preencher] |
@@ -75,7 +75,7 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 | :--- | :--- |
 | **Ferramenta utilizada** | [preencher] |
 | **Versão/modelo** | [preencher] |
-| **Disciplina / Trabalho** | [preencher] |
+| **Disciplina / Trabalho** | Programação Orientada a Objetos – PI Entrega 1 |
 | **Finalidade de uso** | [preencher] |
 | ***Prompts* principais utilizados** | [preencher] |
 | **Trechos ou entregas afetadas** | [preencher] |
@@ -84,53 +84,75 @@ Ficha individual padronizada pela FECAP: [Ficha de Declaracao Uso IA - FECAP.doc
 ## Entrega 2
 <br><br>
 
-### Disciplina 1
+### Banco de Dados
+
+<b>Trabalho/Documento: [a enviar]</b>
+<br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
 | :--- | :--- |
 | **Ferramenta utilizada** | [preencher] |
 | **Versão/modelo** | [preencher] |
-| **Disciplina / Trabalho** | [preencher] |
+| **Disciplina / Trabalho** | Banco de Dados – PI Entrega 2 |
 | **Finalidade de uso** | [preencher] |
 | ***Prompts* principais utilizados** | [preencher] |
 | **Trechos ou entregas afetadas** | [preencher] |
 
+### Design
 
-### Disciplina 2
+<b>Trabalho/Documento: [a enviar]</b>
+<br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
 | :--- | :--- |
 | **Ferramenta utilizada** | [preencher] |
 | **Versão/modelo** | [preencher] |
-| **Disciplina / Trabalho** | [preencher] |
+| **Disciplina / Trabalho** | Design de Interface Digital – PI Entrega 2 |
 | **Finalidade de uso** | [preencher] |
 | ***Prompts* principais utilizados** | [preencher] |
 | **Trechos ou entregas afetadas** | [preencher] |
 
+### Estrutura de Dados
 
-### Disciplina 3
+<b>Trabalho/Documento: [a enviar]</b>
+<br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
 | :--- | :--- |
 | **Ferramenta utilizada** | [preencher] |
 | **Versão/modelo** | [preencher] |
-| **Disciplina / Trabalho** | [preencher] |
+| **Disciplina / Trabalho** | Estrutura de Dados – PI Entrega 2 |
 | **Finalidade de uso** | [preencher] |
 | ***Prompts* principais utilizados** | [preencher] |
 | **Trechos ou entregas afetadas** | [preencher] |
 
+### Desenvolvimento Web Full Stack
 
-### Disciplina 4
+<b>Trabalho/Documento: [a enviar]</b>
+<br><br>
 
 | **Aluno(s) Responsável(veis)** |[preencher] |
 | :--- | :--- |
 | **Ferramenta utilizada** | [preencher] |
 | **Versão/modelo** | [preencher] |
-| **Disciplina / Trabalho** | [preencher] |
+| **Disciplina / Trabalho** | Desenvolvimento Web Full Stack – PI Entrega 2 |
 | **Finalidade de uso** | [preencher] |
 | ***Prompts* principais utilizados** | [preencher] |
 | **Trechos ou entregas afetadas** | [preencher] |
 
+### Programação Orientada a Objetos
+
+<b>Trabalho/Documento: [a enviar]</b>
+<br><br>
+
+| **Aluno(s) Responsável(veis)** |[preencher] |
+| :--- | :--- |
+| **Ferramenta utilizada** | [preencher] |
+| **Versão/modelo** | [preencher] |
+| **Disciplina / Trabalho** | Programação Orientada a Objetos – PI Entrega 2 |
+| **Finalidade de uso** | [preencher] |
+| ***Prompts* principais utilizados** | [preencher] |
+| **Trechos ou entregas afetadas** | [preencher] |
 
 ***Declaro que o uso acima descrito está em conformidade com o GUIA PARA O USO RESPONSÁVEL DE
 INTELIGÊNCIA ARTIFICIAL NA FECAP e que o conteúdo final é de minha plena responsabilidade

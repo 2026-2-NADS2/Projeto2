@@ -69,26 +69,26 @@ O objetivo do projeto é proporcionar um acompanhamento acadêmico mais simples,
 A estrutura do projeto está organizada da seguinte forma:
 
 ```text
-KFKA-Tech/
+Projeto2/
 │
 ├── documentos/
-│   └── Documentação do projeto
+│   ├── Entrega 1/            (Banco de Dados, Design, Estrutura de Dados, Full Stack, POO)
+│   ├── Entrega 2/
+│   ├── Ficha de Declaracao Uso IA - FECAP.docx
+│   ├── Documento_Projeto_Extensao_KFKA_Tech_Preenchido.docx
+│   ├── MODELO_BANNER_FECAP_2026_1.pptx
+│   └── README.md             (entregas e declaração de uso de IA)
 │
 ├── imagens/
-│   └── Imagens, logos e recursos visuais
 │
 ├── src/
-│   │
-│   ├── Backend/
-│   │   ├── classes/
-│   │   ├── database/
-│   │   └── arquivos do backend
-│   │
-│   └── Frontend/
-│       ├── páginas HTML
-│       ├── arquivos CSS
-│       ├── arquivos JavaScript
-│       └── recursos do sistema
+│   ├── Entrega 1/
+│   │   ├── Backend/          (backend.zip)
+│   │   └── Frontend/         (FrontEnd.zip)
+│   ├── Entrega 2/
+│   │   ├── Backend/
+│   │   └── Frontend/
+│   └── README.md             (declaração de uso de IA por módulo)
 │
 └── README.md
 ```
@@ -104,10 +104,10 @@ Contém logos, imagens e demais recursos visuais utilizados pelo sistema.
 **src/**  
 Contém todo o código-fonte da aplicação.
 
-**src/Frontend/**  
+**src/Entrega N/Frontend/**  
 Contém as telas e componentes responsáveis pela interface visual da plataforma.
 
-**src/Backend/**  
+**src/Entrega N/Backend/**  
 Contém as classes, regras do sistema e estrutura responsável pela manipulação e armazenamento dos dados.
 
 **README.md**  
@@ -126,11 +126,15 @@ Arquivo responsável por apresentar e documentar o projeto.
 ### Back-end
 
 - JavaScript
-- Node.js
+- Node.js 22.5+ (servidor HTTP nativo, sem dependências externas)
 
 ### Banco de Dados
 
-- Banco de dados utilizado para armazenar as informações acadêmicas e os dados necessários ao funcionamento do sistema.
+- SQLite (módulo nativo `node:sqlite`)
+
+### Estrutura de Dados
+
+- C# (.NET): simulador de paginação de alunos com SQLite
 
 ### Ferramentas
 
@@ -144,49 +148,25 @@ Arquivo responsável por apresentar e documentar o projeto.
 
 ## 🛠 Instalação e Execução
 
-### Front-end
+### Pré-requisito
 
-Para visualizar as páginas do front-end:
+- Node.js 22.5 ou superior: https://nodejs.org/
 
-1. Acesse a pasta:
+Não é necessário rodar `npm install`.
 
-```text
-src/Frontend
+### Executando a Entrega 1
+
+1. Baixe o arquivo `documentos/Entrega 1/full stack/Full Stack.zip`, que tem o front-end e o back-end juntos, e extraia.
+2. Entre na pasta `Projeto Kfka`.
+3. No Windows, dê dois cliques em `INICIAR_KFKA.bat`. Em outros sistemas, rode:
+
+```sh
+node --no-warnings backend/servidor.js
 ```
 
-2. Localize o arquivo principal:
+4. Acesse http://127.0.0.1:8000 no navegador e mantenha a janela do servidor aberta enquanto usar o sistema.
 
-```text
-index.html
-```
-
-3. Abra o arquivo em um navegador, como:
-
-- Google Chrome;
-- Microsoft Edge;
-- Mozilla Firefox.
-
-Não é necessária instalação para visualizar as páginas estáticas do front-end.
-
----
-
-### Back-end
-
-O back-end do sistema está localizado na pasta:
-
-```text
-src/Backend
-```
-
-Ele é responsável pela organização das classes, regras de negócio e acesso aos dados utilizados pela plataforma KFKA Tech.
-
-Para ambientes que utilizem Node.js, é necessário possuir o Node.js instalado no computador.
-
-Download:
-
-https://nodejs.org/
-
-A execução do servidor pode variar conforme a versão atual implementada no projeto.
+O banco `backend/kfka.db` é criado automaticamente na primeira execução.
 
 ---
 
@@ -223,7 +203,7 @@ https://www.figma.com/
 
 O sistema utiliza um banco de dados para armazenar informações necessárias ao funcionamento da plataforma, como dados de usuários, alunos, professores, acompanhamento escolar, turmas, disciplinas e demais registros acadêmicos.
 
-A camada de banco de dados está integrada ao back-end do projeto.
+O banco utilizado é o SQLite, acessado pelo back-end (`backend/banco.js`).
 
 ---
 
@@ -261,13 +241,17 @@ Possui acesso às funcionalidades administrativas necessárias para gerenciament
 
 ## 📋 Licença / License
 
-Este projeto foi desenvolvido para fins acadêmicos como parte do Projeto Interdisciplinar da **FECAP – Fundação de Comércio Álvares Penteado**.
+Este projeto foi desenvolvido para fins acadêmicos como parte do Projeto Interdisciplinar da **FECAP – Fundação de Comércio Álvares Penteado** e está licenciado sob a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)</a>.
 
-Caso seja necessária a aplicação de uma licença Creative Commons, poderá ser utilizada a licença **CC BY 4.0**.
+---
 
-Mais informações:
+## 🤖 Declaração de Uso de Inteligência Artificial
 
-https://creativecommons.org/licenses/by/4.0/
+Conforme o Guia para o Uso Responsável de IA na FECAP (versão 2.0), as declarações de uso de IA estão em:
+
+- [documentos/README.md](documentos/README.md) – por disciplina e entrega
+- [src/README.md](src/README.md) – por módulo do sistema
+- [Ficha de Declaração de Uso de IA](documentos/Ficha%20de%20Declaracao%20Uso%20IA%20-%20FECAP.docx) – ficha individual
 
 ---
 
