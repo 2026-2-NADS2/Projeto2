@@ -1,0 +1,16 @@
+{
+  "name": "kfka-backend",
+  "version": "2.0.0",
+  "description": "API RESTful Full Stack KFKA - Plataforma de Acompanhamento Escolar",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  }
+}

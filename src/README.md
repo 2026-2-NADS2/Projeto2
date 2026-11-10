@@ -1,62 +1,121 @@
-# Entregas do PI
-### **DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL**
+# KFKA – Plataforma de Acompanhamento Escolar
 
-## Entrega 1
-<br><br>
+Projeto Interdisciplinar do 2º semestre de ADS da FECAP (2026).
 
-### Design de Interface Digital
+A KFKA é um sistema web para escolas de Ensino Fundamental. Nele, o professor registra o acompanhamento bimestral de cada aluno, a coordenação revisa e publica, e o responsável consulta os relatórios do filho, confirma que leu e pode mandar observações para a escola.
 
-| **Aluno(s) Responsável(veis)** | Vitor de Moura Lima |
-| :--- | :--- |
-| **Ferramenta utilizada** | Google Gemini |
-| **Versão/modelo** | Gemini 1.5 Pro |
-| **Disciplina / Trabalho** | Design de Interface Digital – PI Entrega 1 |
-| **Finalidade de uso** | Usei para ter ideias de seções para a página inicial (Home) e diretrizes de contraste visual, e para revisar o texto das justificativas da paleta de cores e do guia de estilo. A criação visual e a prototipação no Figma foram feitas pelos próprios alunos. |
-| ***Prompts* principais utilizados** | 1. "Me dá ideias de seções para estruturar a Home de uma plataforma de acompanhamento escolar do Ensino Fundamental." 2. "Sugere pontos para justificar uma paleta de cores acessível, pensando em contraste entre fundo, texto e botões." 3. "Revisa a gramática do texto do Guia de Estilo (tipografia, botões, menus, espaçamentos e ícones)." |
-| **Trechos ou entregas afetadas** | Organização das seções e textos institucionais da Home no Figma, texto da justificativa da paleta de cores e revisão do documento do Guia de Estilo. |
+O sistema tem três perfis de acesso: **Administrador**, **Professor** e **Responsável**.
 
+## Tecnologias
 
-### Desenvolvimento Web Full Stack
+- **Front-end:** React + Vite + React Router
+- **Back-end:** Node.js + Express
+- **Banco de dados:** MySQL
 
-| **Aluno(s) Responsável(veis)** | Vitor de Moura Lima |
-| :--- | :--- |
-| **Ferramenta utilizada** | Google Gemini |
-| **Versão/modelo** | Gemini 1.5 Pro |
-| **Disciplina / Trabalho** | Desenvolvimento Web Full Stack – PI Entrega 1 |
-| **Finalidade de uso** | Usei para organizar ideias sobre a estrutura de pastas da API e os cenários de teste da coleção do Postman, e para revisar a gramática das mensagens de retorno da API e das instruções de configuração do projeto. O código, o banco de dados e os testes foram feitos e conferidos pelos próprios alunos. |
-| ***Prompts* principais utilizados** | 1. "Me ajuda a organizar a estrutura de pastas de uma API em Node.js/Express e os cenários de teste (sucesso e erros 400/404) de uma coleção do Postman." 2. "Revisa a gramática das mensagens de retorno da API e das instruções do arquivo .env.example." 3. "Revisa os comentários do script de criação do banco de dados (schema.sql)." |
-| **Trechos ou entregas afetadas** | Organização das pastas do repositório, mensagens de validação da API, comentários dos arquivos schema.sql e .env.example, e a documentação da coleção do Postman. |
+## Estrutura do projeto
 
----
+```
+KFKA_entrega2_react/
+├── back_end/
+│   ├── sql/schema.sql          criação do banco, tabelas, índices, view e dados iniciais
+│   ├── src/config/db.js        conexão com o MySQL
+│   ├── src/models/sistemaKFKA.js
+│   ├── src/server.js           rotas da API
+│   └── .env.example
+└── front_end/
+    ├── public/img/             imagens da página inicial
+    ├── src/services/api.js     todas as chamadas para a API
+    ├── src/components/         componentes reutilizáveis (tabela, paginação, avisos...)
+    ├── src/pages/              telas do sistema
+    ├── src/styles/             CSS
+    └── .env.example
+```
 
-## Entrega 2
-<br><br>
+## Como rodar
 
-### Design de Interface Digital
+Você vai precisar do **Node.js** e de um **MySQL** (pode ser o do XAMPP).
 
-| **Aluno(s) Responsável(veis)** | Vitor de Moura Lima |
-| :--- | :--- |
-| **Ferramenta utilizada** | Google Gemini |
-| **Versão/modelo** | Gemini 1.5 Pro |
-| **Disciplina / Trabalho** | Design de Interface Digital – PI Entrega 2 |
-| **Finalidade de uso** | Usei para organizar os fluxos de páginas do Mapa de Navegação e as categorias do Design System, e para revisar os rótulos e textos de interface do protótipo navegável. Os frames, componentes e interações no Figma foram feitos pelos próprios alunos. |
-| ***Prompts* principais utilizados** | 1. "Me ajuda a estruturar os fluxos do Mapa de Navegação, conectando Home, Login e os painéis de Administrador, Professor e Responsável." 2. "Lista tópicos e estados de componentes (padrão, hover, foco, desabilitado, badges de status) para a documentação do Design System." 3. "Revisa a gramática dos textos de interface (rótulos, botões e avisos) do protótipo no Figma." |
-| **Trechos ou entregas afetadas** | Estrutura do Mapa de Navegação, texto da documentação do Design System e revisão dos textos das telas do protótipo navegável no Figma. |
+**1. Banco de dados**
 
+Com o MySQL ligado, abra o phpMyAdmin (ou o Workbench) e execute o arquivo `back_end/sql/schema.sql`. Ele cria o banco `kfka_db` com todas as tabelas e alguns dados para teste. Se o banco já existir, pode rodar de novo sem problema.
 
-### Desenvolvimento Web Full Stack
+**2. Back-end**
 
-| **Aluno(s) Responsável(veis)** | Vitor de Moura Lima |
-| :--- | :--- |
-| **Ferramenta utilizada** | Google Gemini |
-| **Versão/modelo** | Gemini 1.5 Pro |
-| **Disciplina / Trabalho** | Desenvolvimento Web Full Stack – PI Entrega 2 |
-| **Finalidade de uso** | Usei para organizar ideias sobre o README.md e revisar a gramática do texto, e tive uma ajuda pontual da IA numa parte da integração do front-end com a API (consumo via fetch) e nos estados de interface das telas. O código foi revisado e testado pelos alunos. |
-| ***Prompts* principais utilizados** | 1. "Me ajuda a estruturar o README.md com instruções de execução, configuração da API (config.js) e fluxo de telas dos perfis." 2. "Como faço uma função com fetch para consumir um endpoint de listagem e tratar erro de conexão?" 3. "Revisa a gramática do README.md da Entrega 2." |
-| **Trechos ou entregas afetadas** | Parte da configuração da URL da API (config.js) e do serviço de consumo (api.js), alguns estados de interface (carregamento e erro) das telas, e revisão do README.md. |
+```bash
+cd back_end
+copy .env.example .env
+npm install
+npm start
+```
 
----
+No arquivo `.env`, confira o usuário e a senha do seu MySQL (no XAMPP normalmente é `root` sem senha). A API vai rodar em `http://localhost:3000/api`.
 
-***Declaro que o uso acima descrito está em conformidade com o GUIA PARA O USO RESPONSÁVEL DE
-INTELIGÊNCIA ARTIFICIAL NA FECAP e que o conteúdo final é de minha plena responsabilidade
-autoral.***
+**3. Front-end** (em outro terminal, com o back-end ainda rodando)
+
+```bash
+cd front_end
+copy .env.example .env
+npm install
+npm run dev
+```
+
+Depois é só abrir `http://localhost:5173` no navegador.
+
+> No Mac ou Linux, troque `copy` por `cp`.
+
+## Configurando a URL da API
+
+O front-end lê o endereço da API no arquivo `front_end/.env`:
+
+```
+VITE_API_URL=http://localhost:3000/api
+```
+
+Se a API for publicada em outro endereço (por exemplo, num serviço de nuvem), basta trocar esse valor e rodar `npm run dev` ou `npm run build` de novo.
+
+## Usuários para teste
+
+| Perfil | Login | Senha |
+|---|---|---|
+| Administrador | `admin` | `123456` |
+| Professor | `102030` | `123456` |
+| Responsável | `987.654.321-00` | `123456` |
+
+O professor entra com o RA, e o responsável pode entrar com o CPF ou com a matrícula do aluno.
+
+## Fluxo de telas
+
+```
+Página inicial  →  Escolha do perfil  →  Login
+                                           │
+         ┌─────────────────────────────────┼──────────────────────────────┐
+         ▼                                 ▼                              ▼
+   Administrador                       Professor                     Responsável
+   - Turmas                            - Períodos de digitação       - Escolha do aluno
+   - Disciplinas                       - Minhas salas                - Relatórios por bimestre
+   - Professores                       - Lançar acompanhamento       - Confirmar ciência
+   - Alunos                            - Acompanhamentos da sala     - Enviar observação
+   - Responsáveis                                                    - Baixar PDF
+   - Tags
+   - Períodos bimestrais
+   - Revisão e publicação
+   - Relatórios e exportação
+```
+
+**Exemplo de uso completo:** o administrador cadastra a turma, o aluno e o responsável, vincula o professor e libera o bimestre. O professor lança o acompanhamento e envia para revisão. O administrador revisa e publica. O responsável entra, lê o relatório, confirma a ciência e baixa o PDF. Por fim, o administrador exporta os dados para o Excel.
+
+## Rotas da API
+
+| Método | Rota | O que faz |
+|---|---|---|
+| POST | `/api/login` | login de qualquer perfil |
+| POST | `/api/definir-senha` | primeiro acesso do responsável |
+| POST | `/api/recuperar-senha` | recuperação de senha |
+| GET | `/api/:recurso` | lista os registros |
+| GET | `/api/:recurso/:id` | busca um registro |
+| POST | `/api/:recurso` | cria um registro |
+| PUT | `/api/:recurso/:id` | atualiza um registro |
+| DELETE | `/api/:recurso/:id` | exclui um registro |
+| GET | `/api/historico` | histórico de alterações dos acompanhamentos |
+
+Os recursos disponíveis são: turmas, disciplinas, professores, alunos, responsaveis, tags, bimestres e acompanhamentos.
